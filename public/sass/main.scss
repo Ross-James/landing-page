@@ -1,0 +1,210 @@
+// ----- Fonts --------------------------------------------
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+// ----- Resets -------------------------------------------
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+ul, li{ list-style: none; }
+
+// ----- Reusable classes --------------------------------
+.container{
+    max-width: 1600px;
+    height: inherit;
+    padding: 0 20px;
+    margin: 0 auto;
+
+    @media screen and (min-width: 567px) { padding: 0 50px; }
+}
+
+.flex{
+    width: inherit;
+    height: inherit;
+    display: flex;
+}
+
+.d-col{ flex-direction: column; }
+
+.a-center{ align-items: center; }
+
+.f-center{ justify-content: center; }
+.f-evenly{ justify-content: space-evenly; }
+.f-between{ justify-content: space-between; }
+
+
+.grid{
+    width: inherit;
+    height: inherit;
+    display: grid;
+    grid-template-columns: 100%;
+    column-gap: 20px; 
+    justify-items: center;
+
+    @media screen and (min-width: 567px) { 
+        grid-template-columns: 50% 50%;
+        justify-content: space-between;
+    }
+
+    @media screen and (min-width: 991px) { 
+        grid-template-columns: 30% 30% 30%; 
+    }
+}
+
+
+
+.logo{
+    font-weight: 600;
+    color: #FFF;
+
+    span{ font-weight: 400; }
+}
+
+// ----- Main stles -------------------------------------
+
+.main-header{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    // background-color: #FFF;              keep for mobile
+    // box-shadow: 0 2px 2px #ccc;          keep for mobile
+    z-index: 5;
+
+    .logo{ font-size: 22px; }
+
+    .main-nav{
+        .menu-toggle{
+            outline: none;
+            border: none;
+            background-color: transparent;
+            cursor: pointer;
+
+            .box{
+                width: 25px;
+                height: 15px;
+                position: relative;
+
+                .bar{
+                    width: 100%;
+                    height: 2px;
+                    position: absolute;
+                    right: 0;
+                    background-color: #FFF;
+                    border-radius: 4px;
+
+                    &:nth-child(1){ top: 0; }
+
+                    &:nth-child(2){
+                        width: 75%; 
+                        top: calc(50% - 1px); 
+                    }
+
+                    &:nth-child(3){ bottom: 0; }
+                }
+            }
+        }
+
+        .menu-items{
+            display: none;
+            width: 100%;
+            height: auto;
+            position: absolute;
+            top: 70px;
+            left: 0;
+            background-color: lightgreen;
+            padding: 10px 25px;
+
+            .item-wrap{
+                margin-bottom: 5px;
+
+                .item{
+                    display: block;
+                    font-size: 14px;
+                    font-weight: 400;
+                    padding: 5px;
+                    text-align: center;
+                }
+            }
+
+            &--menu-active{ display: block; }
+        }
+
+        @media screen and (min-width: 992px) {
+            .menu-toggle{ display: none; }
+
+            .menu-items{
+                display: flex;
+                position: relative;
+                inset: unset;
+                padding: unset;
+                background-color: transparent;
+    
+                .item-wrap{
+                    margin-bottom: unset;
+                    margin-right: 30px;
+    
+                    &:last-child{ margin-right: 0; }
+
+                    .item{
+                        position: relative;
+
+                        &::before{
+                            content: "";
+                            width: 0;
+                            height: 2px;
+                            position: absolute;
+                            top: calc(50% - 1px);
+                            left: 0;
+                            background-color: #FFF;
+                            transition: ease-in-out 150ms;
+                        }
+
+                        &:hover,
+                        &:focus{
+                            &::before{ width: 100%; }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.hero-banner{
+    width: 100%;
+    height: 100vh;
+    background: #000 center/cover url('../images/hero-banner-min.jpg') no-repeat;
+
+    .logo{ font-size: clamp(30px, 5vw, 50px); }
+
+    p{
+        color: #FFF;
+        font-size: 18px;
+    }
+}
+
+.usps{
+    width: 100%;
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 60px;
+
+    .usp-block{
+        max-width: 400px;
+        margin-bottom: 40px;
+        padding: 10px;
+
+        h4{margin-bottom: 5px;}
+        p{ font-size: 14px;}
+    }
+}
