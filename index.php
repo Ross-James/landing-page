@@ -42,32 +42,32 @@
         <div class="container">
             <div class="grid">
                 <div class="usp-block">
-                    <img src="./public/elements/bolt.svg" alt="USP Icon" class="icon">
+                    <img src="<?php echo urldecode("./public/elements/bolt.svg") ?>" alt="USP Icon" class="icon">
                     <h4>USP Heading</h4>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci culpa maxime alias provident beatae eligendi itaque sed explicabo</p>
                 </div>
                 <div class="usp-block">
-                    <img src="./public/elements/bolt.svg" alt="USP Icon" class="icon">
+                    <img src="<?php echo urldecode("./public/elements/bolt.svg") ?>" alt="USP Icon" class="icon">
                     <h4>USP Heading</h4>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci culpa maxime alias provident beatae eligendi itaque sed explicabo</p>
                 </div>
                 <div class="usp-block">
-                    <img src="./public/elements/bolt.svg" alt="USP Icon" class="icon">
+                    <img src="<?php echo urldecode("./public/elements/bolt.svg") ?>" alt="USP Icon" class="icon">
                     <h4>USP Heading</h4>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci culpa maxime alias provident beatae eligendi itaque sed explicabo</p>
                 </div>
                 <div class="usp-block">
-                    <img src="./public/elements/bolt.svg" alt="USP Icon" class="icon">
+                    <img src="<?php echo urldecode("./public/elements/bolt.svg") ?>" alt="USP Icon" class="icon">
                     <h4>USP Heading</h4>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci culpa maxime alias provident beatae eligendi itaque sed explicabo</p>
                 </div>
                 <div class="usp-block">
-                    <img src="./public/elements/bolt.svg" alt="USP Icon" class="icon">
+                    <img src="<?php echo urldecode("./public/elements/bolt.svg") ?>" alt="USP Icon" class="icon">
                     <h4>USP Heading</h4>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci culpa maxime alias provident beatae eligendi itaque sed explicabo</p>
                 </div>
                 <div class="usp-block">
-                    <img src="./public/elements/bolt.svg" alt="USP Icon" class="icon">
+                    <img src="<?php echo urldecode("./public/elements/bolt.svg") ?>" alt="USP Icon" class="icon">
                     <h4>USP Heading</h4>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci culpa maxime alias provident beatae eligendi itaque sed explicabo</p>
                 </div>
@@ -75,7 +75,6 @@
         </div>
     </section>
     
-    <!-- add javascript functionality -->
     <section class="main-work">
         <div class="container">
 
@@ -96,47 +95,47 @@
             <div class="project-grid">
                 <div class="block" aria-label="design">
                     <span class="project-title">Title</span>
-                    <img src="./public/images/project-1.jpg" alt="Project Title" class="img-fluid">
+                    <img src="<?php echo urldecode("./public/images/project-1.jpg") ?>" alt="Project Title" class="img-fluid">
                 </div>
 
                 <div class="block" aria-label="web">
                     <span class="project-title">Title</span>
-                    <img src="./public/images/project-1.jpg" alt="Project Title" class="img-fluid">
+                    <img src="<?php echo urldecode("./public/images/project-1.jpg") ?>" alt="Project Title" class="img-fluid">
                 </div>
 
                 <div class="block" aria-label="marketing">
                     <span class="project-title">Title</span>
-                    <img src="./public/images/project-1.jpg" alt="Project Title" class="img-fluid">
+                    <img src="<?php echo urldecode("./public/images/project-1.jpg") ?>" alt="Project Title" class="img-fluid">
                 </div>
 
                 <div class="block" aria-label="web">
                     <span class="project-title">Title</span>
-                    <img src="./public/images/project-1.jpg" alt="Project Title" class="img-fluid">
+                    <img src="<?php echo urldecode("./public/images/project-1.jpg") ?>" alt="Project Title" class="img-fluid">
                 </div>
 
                 <div class="block" aria-label="design">
                     <span class="project-title">Title</span>
-                    <img src="./public/images/project-1.jpg" alt="Project Title" class="img-fluid">
+                    <img src="<?php echo urldecode("./public/images/project-1.jpg") ?>" alt="Project Title" class="img-fluid">
                 </div>
 
                 <div class="block" aria-label="web">
                     <span class="project-title">Title</span>
-                    <img src="./public/images/project-1.jpg" alt="Project Title" class="img-fluid">
+                    <img src="<?php echo urldecode("./public/images/project-1.jpg") ?>" alt="Project Title" class="img-fluid">
                 </div>
 
                 <div class="block" aria-label="design">
                     <span class="project-title">Title</span>
-                    <img src="./public/images/project-1.jpg" alt="Project Title" class="img-fluid">
+                    <img src="<?php echo urldecode("./public/images/project-1.jpg") ?>" alt="Project Title" class="img-fluid">
                 </div>
 
                 <div class="block" aria-label="web">
                     <span class="project-title">Title</span>
-                    <img src="./public/images/project-1.jpg" alt="Project Title" class="img-fluid">
+                    <img src="<?php echo urldecode("./public/images/project-1.jpg") ?>" alt="Project Title" class="img-fluid">
                 </div>
 
                 <div class="block" aria-label="social media">
                     <span class="project-title">Title</span>
-                    <img src="./public/images/project-1.jpg" alt="Project Title" class="img-fluid">
+                    <img src="<?php echo urldecode("./public/images/project-1.jpg") ?>" alt="Project Title" class="img-fluid">
                 </div>
 
             </div>
@@ -152,32 +151,32 @@
             
             <div class="grid">
             <div class="usp-block">
-                    <img src="./public/elements/bolt.svg" alt="USP Icon" class="icon">
+                    <img src="<?php echo urldecode("./public/elements/bolt.svg") ?>" alt="USP Icon" class="icon">
                     <h4>USP Heading</h4>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci culpa maxime alias provident beatae eligendi itaque sed explicabo</p>
                 </div>
                 <div class="usp-block">
-                    <img src="./public/elements/bolt.svg" alt="USP Icon" class="icon">
+                    <img src="<?php echo urldecode("./public/elements/bolt.svg") ?>" alt="USP Icon" class="icon">
                     <h4>USP Heading</h4>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci culpa maxime alias provident beatae eligendi itaque sed explicabo</p>
                 </div>
                 <div class="usp-block">
-                    <img src="./public/elements/bolt.svg" alt="USP Icon" class="icon">
+                    <img src="<?php echo urldecode("./public/elements/bolt.svg") ?>" alt="USP Icon" class="icon">
                     <h4>USP Heading</h4>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci culpa maxime alias provident beatae eligendi itaque sed explicabo</p>
                 </div>
                 <div class="usp-block">
-                    <img src="./public/elements/bolt.svg" alt="USP Icon" class="icon">
+                    <img src="<?php echo urldecode("./public/elements/bolt.svg") ?>" alt="USP Icon" class="icon">
                     <h4>USP Heading</h4>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci culpa maxime alias provident beatae eligendi itaque sed explicabo</p>
                 </div>
                 <div class="usp-block">
-                    <img src="./public/elements/bolt.svg" alt="USP Icon" class="icon">
+                    <img src="<?php echo urldecode("./public/elements/bolt.svg") ?>" alt="USP Icon" class="icon">
                     <h4>USP Heading</h4>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci culpa maxime alias provident beatae eligendi itaque sed explicabo</p>
                 </div>
                 <div class="usp-block">
-                    <img src="./public/elements/bolt.svg" alt="USP Icon" class="icon">
+                    <img src="<?php echo urldecode("./public/elements/bolt.svg") ?>" alt="USP Icon" class="icon">
                     <h4>USP Heading</h4>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci culpa maxime alias provident beatae eligendi itaque sed explicabo</p>
                 </div>
