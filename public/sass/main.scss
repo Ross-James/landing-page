@@ -1,98 +1,15 @@
-// ----- Fonts --------------------------------------------
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import './base.scss';
 
-// ----- Resets -------------------------------------------
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
-
-a{
-    text-decoration: none;
-    color: #FFF;
-}
-
-ul, li{ list-style: none; }
-
-// ----- Reusable classes --------------------------------
-.container{
-    max-width: 1600px;
-    height: inherit;
-    padding: 0 20px;
-    margin: 0 auto;
-
-    @media screen and (min-width: 567px) { padding: 0 50px; }
-}
-
-.section-header{
-    display: block;
-    margin-bottom: 50px;
-}
-
-.flex, .flex-wrap{
-    width: inherit;
-    height: inherit;
-    display: flex;
-}
-
-.flex-wrap{ flex-wrap: wrap; }
-
-.d-col{ flex-direction: column; }
-
-.d-md-row{
-    @media screen and (min-width: 991px) {
-        flex-direction: row;
-    }
-}
-
-.a-center{ align-items: center; }
-
-.f-center{ justify-content: center; }
-.f-evenly{ justify-content: space-evenly; }
-.f-between{ justify-content: space-between; }
-.f-around{ justify-content: space-around; }
-
-
-.f-md-between{
-    @media screen and (min-width: 991px) {
-        justify-content: space-between;
-    }
-}
-
-.grid{
-    width: inherit;
-    height: inherit;
-    display: grid;
-    grid-template-columns: 100%;
-    column-gap: 20px; 
-    justify-items: center;
-
-    @media screen and (min-width: 567px) { 
-        grid-template-columns: 50% 50%;
-        justify-content: space-between;
-    }
-
-    @media screen and (min-width: 991px) { 
-        grid-template-columns: 30% 30% 30%; 
-    }
-}
-
-.img-fluid{
+// ----- Main styles -------------------------------------
+.usps, 
+.main-services, 
+.main-team, 
+.main-pricing{
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 60px;
 }
-
-.logo{
-    font-weight: 600;
-    color: #000;
-
-    span{ font-weight: 400}
-}
-
-// ----- Main stles -------------------------------------
 
 .main-header{
     width: 100%;
@@ -222,13 +139,13 @@ ul, li{ list-style: none; }
 
         .logo{ color: #000; }
 
-        .menu-items{
-            .item-wrap{
-                .item{ 
-                    color: #000; 
-                    
-                    &::before{
-                        background-color: #000;
+        .main-nav{
+            .menu-items{
+                .item-wrap{
+                    .item{ 
+                        color: #000; 
+                        
+                        &::before{ background-color: #000; }
                     }
                 }
             }
@@ -239,7 +156,7 @@ ul, li{ list-style: none; }
 .hero-banner{
     width: 100%;
     height: 100vh;
-    background: #000 center/cover url('../images/hero-banner-min.jpg') no-repeat;
+    background: center/cover url('../images/hero-banner-min.jpg') no-repeat;
 
     .logo{ 
         font-size: clamp(30px, 5vw, 50px); 
@@ -253,18 +170,24 @@ ul, li{ list-style: none; }
 }
 
 .usps{
-    width: 100%;
-    height: auto;
-    padding-top: 100px;
-    padding-bottom: 60px;
-
     .usp-block{
         max-width: 400px;
-        margin-bottom: 40px;
-        // padding: 10px;
+        margin-bottom: 60px;
 
-        h4{margin-bottom: 5px;}
-        p{ font-size: 14px;}
+        .icon{ 
+            display: block;
+            margin: 0 auto;
+        }
+
+        h4{
+            text-align: center;
+            margin-bottom: 5px;
+        }
+
+        p{
+            font-size: 14px;
+            text-align: center;
+        }
     }
 }
 
@@ -361,11 +284,6 @@ ul, li{ list-style: none; }
 }
 
 .main-services{
-    width: 100%;
-    height: auto;
-    padding-top: 100px;
-    padding-bottom: 60px;
-
     h2, h4, p{ text-align: center;}
 
     h2{ margin-bottom: 5px; }
@@ -374,7 +292,7 @@ ul, li{ list-style: none; }
 
     .usp-block{
         max-width: 400px;
-        margin-bottom: 40px;
+        margin-bottom: 60px;
 
         .icon{ 
             display: block;
@@ -400,11 +318,6 @@ ul, li{ list-style: none; }
 }
 
 .main-team{
-    width: 100%;
-    height: auto;
-    padding-top: 100px;
-    padding-bottom: 60px;
-
     h2, h4, p{ text-align: center;}
 
     h2{ margin-bottom: 5px; }
@@ -451,11 +364,7 @@ ul, li{ list-style: none; }
 }
 
 .main-pricing{
-    width: 100%;
-    height: auto;
     background-color: #f1f1f1;
-    padding-top: 100px;
-    padding-bottom: 60px;
 
     h2, p{ text-align: center;}
 
@@ -625,4 +534,3 @@ ul, li{ list-style: none; }
         .copyright{ margin: 0;}
     }
 }
-

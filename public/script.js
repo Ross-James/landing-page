@@ -1,8 +1,6 @@
+const header = document.getElementById('masthead');
 const menuToggler = document.getElementById('menuToggler');
 const menuDropDown = document.getElementById('menuDropDown');
-
-const scrollY = window.scrollY;
-const header = document.getElementById('masthead');
 
 // Activate mobile menu dropdown
 menuToggler.addEventListener('click', () =>{
@@ -11,12 +9,14 @@ menuToggler.addEventListener('click', () =>{
 
 // change header colors
 window.addEventListener('scroll', () => {
-    scrollY > "1" 
+    scrollY > 10 
     ? header.classList.add('main-header--scroll')
     : header.classList.remove('main-header--scroll')
 });
 
 
+
+// clean up all this shit
 const categoryChangerBtn = document.querySelectorAll('#categoryChanger');
 
 

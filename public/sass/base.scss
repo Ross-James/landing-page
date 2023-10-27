@@ -1,0 +1,95 @@
+// ----- Fonts --------------------------------------------
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+// ----- Resets -------------------------------------------
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-padding-top: 70px;
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+ul, li{ list-style: none; }
+
+// ----- Reusable classes --------------------------------
+.container{
+    max-width: 1600px;
+    height: inherit;
+    padding: 0 20px;
+    margin: 0 auto;
+
+    @media screen and (min-width: 567px) { padding: 0 50px; }
+}
+
+.section-header{
+    display: block;
+    margin-bottom: 50px;
+}
+
+.flex, .flex-wrap{
+    width: inherit;
+    height: inherit;
+    display: flex;
+}
+
+.flex-wrap{ flex-wrap: wrap; }
+
+.d-col{ flex-direction: column; }
+
+.d-md-row{
+    @media screen and (min-width: 991px) {
+        flex-direction: row;
+    }
+}
+
+.a-center{ align-items: center; }
+
+.f-center{ justify-content: center; }
+.f-evenly{ justify-content: space-evenly; }
+.f-between{ justify-content: space-between; }
+.f-around{ justify-content: space-around; }
+
+
+.f-md-between{
+    @media screen and (min-width: 991px) {
+        justify-content: space-between;
+    }
+}
+
+.grid{
+    width: inherit;
+    height: inherit;
+    display: grid;
+    grid-template-columns: 100%;
+    column-gap: 20px; 
+    justify-items: center;
+
+    @media screen and (min-width: 567px) { 
+        grid-template-columns: 50% 50%;
+        justify-content: space-between;
+    }
+
+    @media screen and (min-width: 991px) { 
+        grid-template-columns: 30% 30% 30%; 
+    }
+}
+
+.img-fluid{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.logo{
+    font-weight: 600;
+    color: #000;
+
+    span{ font-weight: 400}
+}

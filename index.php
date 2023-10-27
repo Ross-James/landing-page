@@ -1,3 +1,8 @@
+<?php 
+    $url = "/landing-page";
+?> 
+ 
+ 
  <!DOCTYPE html>
  <html lang="en">
  <head>
@@ -5,12 +10,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="public/css/main.css">
 
-    <title>Landing Page</title>
+    <title>Single page landing | KreateDigital</title>
  </head>
  <body>
     <header id="masthead" class="main-header">
         <div class="container flex a-center f-between">
-            <a href="#" class="logo">Kreate<span>Digital</span></a>
+            <a href="<?php echo $url ?>" class="logo">Kreate<span>Digital</span></a>
             <nav class="main-nav">
                 <button id="menuToggler" class="menu-toggle">
                     <div class="box">
@@ -20,12 +25,11 @@
                     </div>
                 </button>
                 <ul id="menuDropDown" class="menu-items">
-                    <li class="item-wrap"><a href="#" class="item">Home</a></li>
-                    <li class="item-wrap"><a href="#" class="item">Works</a></li>
-                    <li class="item-wrap"><a href="#" class="item">Services</a></li>
-                    <li class="item-wrap"><a href="#" class="item">Team</a></li>
-                    <li class="item-wrap"><a href="#" class="item">Prices</a></li>
-                    <li class="item-wrap"><a href="#" class="item">Contact Us</a></li>
+                    <li class="item-wrap"><a href="#work" class="item">Works</a></li>
+                    <li class="item-wrap"><a href="#services" class="item">Services</a></li>
+                    <li class="item-wrap"><a href="#team" class="item">Team</a></li>
+                    <li class="item-wrap"><a href="#pricing" class="item">Prices</a></li>
+                    <li class="item-wrap"><a href="#contact" class="item">Contact Us</a></li>
                 </ul>
             </nav>
         </div>
@@ -42,32 +46,32 @@
         <div class="container">
             <div class="grid">
                 <div class="usp-block">
-                    <img src="<?php echo urldecode("./public/elements/bolt.svg") ?>" alt="USP Icon" class="icon">
+                    <img src="<?php echo "./public/elements/bolt.svg"; ?>" alt="USP Icon" class="icon">
                     <h4>USP Heading</h4>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci culpa maxime alias provident beatae eligendi itaque sed explicabo</p>
                 </div>
                 <div class="usp-block">
-                    <img src="<?php echo urldecode("./public/elements/bolt.svg") ?>" alt="USP Icon" class="icon">
+                    <img src="<?php echo "./public/elements/bolt.svg"; ?>" alt="USP Icon" class="icon">
                     <h4>USP Heading</h4>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci culpa maxime alias provident beatae eligendi itaque sed explicabo</p>
                 </div>
                 <div class="usp-block">
-                    <img src="<?php echo urldecode("./public/elements/bolt.svg") ?>" alt="USP Icon" class="icon">
+                    <img src="<?php echo "./public/elements/bolt.svg"; ?>" alt="USP Icon" class="icon">
                     <h4>USP Heading</h4>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci culpa maxime alias provident beatae eligendi itaque sed explicabo</p>
                 </div>
                 <div class="usp-block">
-                    <img src="<?php echo urldecode("./public/elements/bolt.svg") ?>" alt="USP Icon" class="icon">
+                    <img src="<?php echo "./public/elements/bolt.svg"; ?>" alt="USP Icon" class="icon">
                     <h4>USP Heading</h4>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci culpa maxime alias provident beatae eligendi itaque sed explicabo</p>
                 </div>
                 <div class="usp-block">
-                    <img src="<?php echo urldecode("./public/elements/bolt.svg") ?>" alt="USP Icon" class="icon">
+                    <img src="<?php echo "./public/elements/bolt.svg"; ?>" alt="USP Icon" class="icon">
                     <h4>USP Heading</h4>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci culpa maxime alias provident beatae eligendi itaque sed explicabo</p>
                 </div>
                 <div class="usp-block">
-                    <img src="<?php echo urldecode("./public/elements/bolt.svg") ?>" alt="USP Icon" class="icon">
+                    <img src="<?php echo "./public/elements/bolt.svg"; ?>" alt="USP Icon" class="icon">
                     <h4>USP Heading</h4>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci culpa maxime alias provident beatae eligendi itaque sed explicabo</p>
                 </div>
@@ -75,7 +79,7 @@
         </div>
     </section>
     
-    <section class="main-work">
+    <section id="work" class="main-work">
         <div class="container">
 
             <header class="section-header">
@@ -95,54 +99,54 @@
             <div class="project-grid">
                 <div class="block" aria-label="design">
                     <span class="project-title">Title</span>
-                    <img src="<?php echo urldecode("./public/images/project-1.jpg") ?>" alt="Project Title" class="img-fluid">
+                    <img src="<?php echo "./public/images/project-1.jpg"; ?>" alt="Project Title" class="img-fluid">
                 </div>
 
                 <div class="block" aria-label="web">
                     <span class="project-title">Title</span>
-                    <img src="<?php echo urldecode("./public/images/project-1.jpg") ?>" alt="Project Title" class="img-fluid">
+                    <img src="<?php echo "./public/images/project-1.jpg"; ?>" alt="Project Title" class="img-fluid">
                 </div>
 
                 <div class="block" aria-label="marketing">
                     <span class="project-title">Title</span>
-                    <img src="<?php echo urldecode("./public/images/project-1.jpg") ?>" alt="Project Title" class="img-fluid">
+                    <img src="<?php echo "./public/images/project-1.jpg"; ?>" alt="Project Title" class="img-fluid">
                 </div>
 
                 <div class="block" aria-label="web">
                     <span class="project-title">Title</span>
-                    <img src="<?php echo urldecode("./public/images/project-1.jpg") ?>" alt="Project Title" class="img-fluid">
+                    <img src="<?php echo "./public/images/project-1.jpg"; ?>" alt="Project Title" class="img-fluid">
                 </div>
 
                 <div class="block" aria-label="design">
                     <span class="project-title">Title</span>
-                    <img src="<?php echo urldecode("./public/images/project-1.jpg") ?>" alt="Project Title" class="img-fluid">
+                    <img src="<?php echo "./public/images/project-1.jpg"; ?>" alt="Project Title" class="img-fluid">
                 </div>
 
                 <div class="block" aria-label="web">
                     <span class="project-title">Title</span>
-                    <img src="<?php echo urldecode("./public/images/project-1.jpg") ?>" alt="Project Title" class="img-fluid">
+                    <img src="<?php echo "./public/images/project-1.jpg"; ?>" alt="Project Title" class="img-fluid">
                 </div>
 
                 <div class="block" aria-label="design">
                     <span class="project-title">Title</span>
-                    <img src="<?php echo urldecode("./public/images/project-1.jpg") ?>" alt="Project Title" class="img-fluid">
+                    <img src="<?php echo "./public/images/project-1.jpg"; ?>" alt="Project Title" class="img-fluid">
                 </div>
 
                 <div class="block" aria-label="web">
                     <span class="project-title">Title</span>
-                    <img src="<?php echo urldecode("./public/images/project-1.jpg") ?>" alt="Project Title" class="img-fluid">
+                    <img src="<?php echo "./public/images/project-1.jpg"; ?>" alt="Project Title" class="img-fluid">
                 </div>
 
                 <div class="block" aria-label="social media">
                     <span class="project-title">Title</span>
-                    <img src="<?php echo urldecode("./public/images/project-1.jpg") ?>" alt="Project Title" class="img-fluid">
+                    <img src="<?php echo "./public/images/project-1.jpg"; ?>" alt="Project Title" class="img-fluid">
                 </div>
 
             </div>
         </div>
     </section>
 
-    <Section class="main-services">
+    <Section id="services" class="main-services">
         <div class="container">
             <header class="section-header">
                 <h2>Our Services</h2>
@@ -151,32 +155,32 @@
             
             <div class="grid">
             <div class="usp-block">
-                    <img src="<?php echo urldecode("./public/elements/bolt.svg") ?>" alt="USP Icon" class="icon">
+                    <img src="<?php echo "./public/elements/bolt.svg"; ?>" alt="USP Icon" class="icon">
                     <h4>USP Heading</h4>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci culpa maxime alias provident beatae eligendi itaque sed explicabo</p>
                 </div>
                 <div class="usp-block">
-                    <img src="<?php echo urldecode("./public/elements/bolt.svg") ?>" alt="USP Icon" class="icon">
+                    <img src="<?php echo "./public/elements/bolt.svg"; ?>" alt="USP Icon" class="icon">
                     <h4>USP Heading</h4>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci culpa maxime alias provident beatae eligendi itaque sed explicabo</p>
                 </div>
                 <div class="usp-block">
-                    <img src="<?php echo urldecode("./public/elements/bolt.svg") ?>" alt="USP Icon" class="icon">
+                    <img src="<?php echo "./public/elements/bolt.svg"; ?>" alt="USP Icon" class="icon">
                     <h4>USP Heading</h4>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci culpa maxime alias provident beatae eligendi itaque sed explicabo</p>
                 </div>
                 <div class="usp-block">
-                    <img src="<?php echo urldecode("./public/elements/bolt.svg") ?>" alt="USP Icon" class="icon">
+                    <img src="<?php echo "./public/elements/bolt.svg"; ?>" alt="USP Icon" class="icon">
                     <h4>USP Heading</h4>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci culpa maxime alias provident beatae eligendi itaque sed explicabo</p>
                 </div>
                 <div class="usp-block">
-                    <img src="<?php echo urldecode("./public/elements/bolt.svg") ?>" alt="USP Icon" class="icon">
+                    <img src="<?php echo "./public/elements/bolt.svg"; ?>" alt="USP Icon" class="icon">
                     <h4>USP Heading</h4>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci culpa maxime alias provident beatae eligendi itaque sed explicabo</p>
                 </div>
                 <div class="usp-block">
-                    <img src="<?php echo urldecode("./public/elements/bolt.svg") ?>" alt="USP Icon" class="icon">
+                    <img src="<?php echo "./public/elements/bolt.svg"; ?>" alt="USP Icon" class="icon">
                     <h4>USP Heading</h4>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci culpa maxime alias provident beatae eligendi itaque sed explicabo</p>
                 </div>
@@ -190,7 +194,7 @@
         </div>
     </section>
 
-    <section class="main-team">
+    <section id="team" class="main-team">
         <div class="container">
             <header class="section-header">
                 <h2>Our Team</h2>
@@ -238,7 +242,7 @@
         </div>
     </section>
 
-    <section class="main-pricing">
+    <section id="pricing" class="main-pricing">
         <div class="container">
             <header class="section-header">
                 <h2>How Much</h2>
@@ -291,13 +295,12 @@
         </div>
     </section>
 
-    <section class="main-contact">
+    <section id="contact" class="main-contact">
         <div class="container">
             <header class="section-header">
                 <h2>Contact Us</h2>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
             </header>
-
             <div class="contact-details flex-wrap  f-around">
                 <div class="detail">
                     <h4>Address</h4>
@@ -315,14 +318,14 @@
                 </div>
             </div>
 
-            <form action="" class="contact-form">
+            <form action="mail.php" method="$_POST" class="contact-form">
                 <div class="form-group">
-                    <input type="text" name="" id="" placeholder="Name">
-                    <input type="Email" name="" id="" placeholder="Email">
+                    <input type="text" name="name" id="" placeholder="Name">
+                    <input type="Email" name="email" id="" placeholder="Email">
                 </div>
-                <input type="text" name="" id="" placeholder="Subject">
-                <textarea name="" id="" cols="30" rows="5" placeholder="Message"></textarea>
-                <button>Send Message</button>
+                <input type="text" name="subject" id="" placeholder="Subject">
+                <textarea name="message" id="" cols="30" rows="5" placeholder="Message"></textarea>
+                <button type="submit">Send Message</button>
             </form>
         </div>
     </section>
@@ -333,14 +336,29 @@
 
     <footer class="main-footer">
         <div class="container flex a-center d-col d-md-row f-md-between">
-            <a href="#" class="logo">Kreate<span>Digital</span></a>
+            <a href="<?php echo $url ?>" class="logo">Kreate<span>Digital</span></a>
 
             <ul class="footer-links">
-                <li class="link-wrap"><a href="#" class="link">Link</a></li>
-                <li class="link-wrap"><a href="#" class="link">Link</a></li>
-                <li class="link-wrap"><a href="#" class="link">Link</a></li>
-                <li class="link-wrap"><a href="#" class="link">Link</a></li>
-                <li class="link-wrap"><a href="#" class="link">Link</a></li>
+                <li class="link-wrap">
+                    <a href="#" class="link">
+                        <img src="<?php echo "./public/elements/instagram.png"; ?>" alt="Instagram Logo">
+                    </a>
+                </li>
+                <li class="link-wrap">
+                    <a href="#" class="link">
+                        <img src="<?php echo "./public/elements/instagram.png"; ?>" alt="Instagram Logo">
+                    </a>
+                </li>
+                <li class="link-wrap">
+                    <a href="#" class="link">
+                        <img src="<?php echo "./public/elements/instagram.png"; ?>" alt="Instagram Logo">
+                    </a>
+                </li>
+                <li class="link-wrap">
+                    <a href="#" class="link">
+                        <img src="<?php echo "./public/elements/instagram.png"; ?>" alt="Instagram Logo">
+                    </a>
+                </li>
             </ul>
 
             <div class="copyright">Copyright &copy; Ross Simpson 2023</div>
