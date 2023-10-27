@@ -2,38 +2,7 @@
     $url = "/landing-page";
 ?> 
  
- 
- <!DOCTYPE html>
- <html lang="en">
- <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="public/css/main.css">
-
-    <title>Single page landing | KreateDigital</title>
- </head>
- <body>
-    <header id="masthead" class="main-header">
-        <div class="container flex a-center f-between">
-            <a href="<?php echo $url ?>" class="logo">Kreate<span>Digital</span></a>
-            <nav class="main-nav">
-                <button id="menuToggler" class="menu-toggle">
-                    <div class="box">
-                        <div class="bar"></div>
-                        <div class="bar"></div>
-                        <div class="bar"></div>
-                    </div>
-                </button>
-                <ul id="menuDropDown" class="menu-items">
-                    <li class="item-wrap"><a href="#work" class="item">Works</a></li>
-                    <li class="item-wrap"><a href="#services" class="item">Services</a></li>
-                    <li class="item-wrap"><a href="#team" class="item">Team</a></li>
-                    <li class="item-wrap"><a href="#pricing" class="item">Prices</a></li>
-                    <li class="item-wrap"><a href="#contact" class="item">Contact Us</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+ <?php include('./inc/header.php'); ?>
 
     <section class="hero-banner">
         <div class="container flex a-center f-center d-col">
@@ -318,10 +287,10 @@
                 </div>
             </div>
 
-            <form action="mail.php" method="$_POST" class="contact-form">
+            <form action="" method="POST" class="contact-form">
                 <div class="form-group">
                     <input type="text" name="name" id="" placeholder="Name">
-                    <input type="Email" name="email" id="" placeholder="Email">
+                    <input type="email" name="email" id="" placeholder="Email">
                 </div>
                 <input type="text" name="subject" id="" placeholder="Subject">
                 <textarea name="message" id="" cols="30" rows="5" placeholder="Message"></textarea>
@@ -334,37 +303,4 @@
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27503048.087777734!2d5.8629617951807!3d-32.70450425120123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1c34a689d9ee1251%3A0xe85d630c1fa4e8a0!2sSouth%20Africa!5e0!3m2!1sen!2sza!4v1698391644183!5m2!1sen!2sza" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </section>
 
-    <footer class="main-footer">
-        <div class="container flex a-center d-col d-md-row f-md-between">
-            <a href="<?php echo $url ?>" class="logo">Kreate<span>Digital</span></a>
-
-            <ul class="footer-links">
-                <li class="link-wrap">
-                    <a href="#" class="link">
-                        <img src="<?php echo "./public/elements/instagram.png"; ?>" alt="Instagram Logo">
-                    </a>
-                </li>
-                <li class="link-wrap">
-                    <a href="#" class="link">
-                        <img src="<?php echo "./public/elements/instagram.png"; ?>" alt="Instagram Logo">
-                    </a>
-                </li>
-                <li class="link-wrap">
-                    <a href="#" class="link">
-                        <img src="<?php echo "./public/elements/instagram.png"; ?>" alt="Instagram Logo">
-                    </a>
-                </li>
-                <li class="link-wrap">
-                    <a href="#" class="link">
-                        <img src="<?php echo "./public/elements/instagram.png"; ?>" alt="Instagram Logo">
-                    </a>
-                </li>
-            </ul>
-
-            <div class="copyright">Copyright &copy; Ross Simpson 2023</div>
-        </div>
-    </footer>
-
-    <script src="./public/script.js"></script>
- </body>
- </html>
+    <?php include('./inc/footer.php'); ?>
