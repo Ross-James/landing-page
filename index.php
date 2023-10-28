@@ -15,32 +15,32 @@
         <div class="container">
             <div class="grid">
                 <div class="usp-block">
-                    <img src="<?php echo "./public/elements/bolt.svg"; ?>" alt="USP Icon" class="icon">
+                    <img src="./public/elements/bolt.svg" alt="USP Icon" class="icon">
                     <h4>USP Heading</h4>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci culpa maxime alias provident beatae eligendi itaque sed explicabo</p>
                 </div>
                 <div class="usp-block">
-                    <img src="<?php echo "./public/elements/bolt.svg"; ?>" alt="USP Icon" class="icon">
+                    <img src="./public/elements/bolt.svg" alt="USP Icon" class="icon">
                     <h4>USP Heading</h4>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci culpa maxime alias provident beatae eligendi itaque sed explicabo</p>
                 </div>
                 <div class="usp-block">
-                    <img src="<?php echo "./public/elements/bolt.svg"; ?>" alt="USP Icon" class="icon">
+                    <img src="./public/elements/bolt.svg" alt="USP Icon" class="icon">
                     <h4>USP Heading</h4>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci culpa maxime alias provident beatae eligendi itaque sed explicabo</p>
                 </div>
                 <div class="usp-block">
-                    <img src="<?php echo "./public/elements/bolt.svg"; ?>" alt="USP Icon" class="icon">
+                    <img src="./public/elements/bolt.svg" alt="USP Icon" class="icon">
                     <h4>USP Heading</h4>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci culpa maxime alias provident beatae eligendi itaque sed explicabo</p>
                 </div>
                 <div class="usp-block">
-                    <img src="<?php echo "./public/elements/bolt.svg"; ?>" alt="USP Icon" class="icon">
+                    <img src="./public/elements/bolt.svg" alt="USP Icon" class="icon">
                     <h4>USP Heading</h4>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci culpa maxime alias provident beatae eligendi itaque sed explicabo</p>
                 </div>
                 <div class="usp-block">
-                    <img src="<?php echo "./public/elements/bolt.svg"; ?>" alt="USP Icon" class="icon">
+                    <img src="./public/elements/bolt.svg" alt="USP Icon" class="icon">
                     <h4>USP Heading</h4>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci culpa maxime alias provident beatae eligendi itaque sed explicabo</p>
                 </div>
@@ -50,12 +50,10 @@
     
     <section id="work" class="main-work">
         <div class="container">
-
             <header class="section-header">
                 <h2>Our Work</h2>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
             </header>
-
             <div class="select-work">
                 <button id="categoryChanger" data-category="all">All</button>
                 <button id="categoryChanger" data-category="design">Design</button>
@@ -63,52 +61,50 @@
                 <button id="categoryChanger" data-category="marketing">Campaign</button>
                 <button id="categoryChanger" data-category="social media">Social Media</button>
             </div>
-
-
             <div class="project-grid">
                 <div class="block" aria-label="design">
-                    <span class="project-title">Title</span>
-                    <img src="<?php echo "./public/images/project-1.jpg"; ?>" alt="Project Title" class="img-fluid">
+                    <span class="project-title">Design</span>
+                    <img src="./public/images/project-1.jpg" alt="Project Title" class="img-fluid">
                 </div>
 
                 <div class="block" aria-label="web">
-                    <span class="project-title">Title</span>
-                    <img src="<?php echo "./public/images/project-1.jpg"; ?>" alt="Project Title" class="img-fluid">
+                    <span class="project-title">Web</span>
+                    <img src="./public/images/project-1.jpg" alt="Project Title" class="img-fluid">
                 </div>
 
                 <div class="block" aria-label="marketing">
-                    <span class="project-title">Title</span>
-                    <img src="<?php echo "./public/images/project-1.jpg"; ?>" alt="Project Title" class="img-fluid">
+                    <span class="project-title">Marketing</span>
+                    <img src="./public/images/project-1.jpg" alt="Project Title" class="img-fluid">
                 </div>
 
                 <div class="block" aria-label="web">
-                    <span class="project-title">Title</span>
-                    <img src="<?php echo "./public/images/project-1.jpg"; ?>" alt="Project Title" class="img-fluid">
+                    <span class="project-title">Web</span>
+                    <img src="./public/images/project-1.jpg" alt="Project Title" class="img-fluid">
                 </div>
 
                 <div class="block" aria-label="design">
-                    <span class="project-title">Title</span>
-                    <img src="<?php echo "./public/images/project-1.jpg"; ?>" alt="Project Title" class="img-fluid">
+                    <span class="project-title">Design</span>
+                    <img src="./public/images/project-1.jpg" alt="Project Title" class="img-fluid">
                 </div>
 
                 <div class="block" aria-label="web">
-                    <span class="project-title">Title</span>
-                    <img src="<?php echo "./public/images/project-1.jpg"; ?>" alt="Project Title" class="img-fluid">
+                    <span class="project-title">Web</span>
+                    <img src="./public/images/project-1.jpg" alt="Project Title" class="img-fluid">
                 </div>
 
                 <div class="block" aria-label="design">
-                    <span class="project-title">Title</span>
-                    <img src="<?php echo "./public/images/project-1.jpg"; ?>" alt="Project Title" class="img-fluid">
+                    <span class="project-title">Design</span>
+                    <img src="./public/images/project-1.jpg" alt="Project Title" class="img-fluid">
                 </div>
 
                 <div class="block" aria-label="web">
-                    <span class="project-title">Title</span>
-                    <img src="<?php echo "./public/images/project-1.jpg"; ?>" alt="Project Title" class="img-fluid">
+                    <span class="project-title">Web</span>
+                    <img src="./public/images/project-1.jpg" alt="Project Title" class="img-fluid">
                 </div>
 
                 <div class="block" aria-label="social media">
-                    <span class="project-title">Title</span>
-                    <img src="<?php echo "./public/images/project-1.jpg"; ?>" alt="Project Title" class="img-fluid">
+                    <span class="project-title">Social Media</span>
+                    <img src="./public/images/project-1.jpg" alt="Project Title" class="img-fluid">
                 </div>
 
             </div>
@@ -120,36 +116,35 @@
             <header class="section-header">
                 <h2>Our Services</h2>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </header>
-            
+            </header> 
             <div class="grid">
-            <div class="usp-block">
-                    <img src="<?php echo "./public/elements/bolt.svg"; ?>" alt="USP Icon" class="icon">
+                <div class="usp-block">
+                    <img src="./public/elements/bolt.svg" alt="USP Icon" class="icon">
                     <h4>USP Heading</h4>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci culpa maxime alias provident beatae eligendi itaque sed explicabo</p>
                 </div>
                 <div class="usp-block">
-                    <img src="<?php echo "./public/elements/bolt.svg"; ?>" alt="USP Icon" class="icon">
+                    <img src="./public/elements/bolt.svg" alt="USP Icon" class="icon">
                     <h4>USP Heading</h4>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci culpa maxime alias provident beatae eligendi itaque sed explicabo</p>
                 </div>
                 <div class="usp-block">
-                    <img src="<?php echo "./public/elements/bolt.svg"; ?>" alt="USP Icon" class="icon">
+                    <img src="./public/elements/bolt.svg" alt="USP Icon" class="icon">
                     <h4>USP Heading</h4>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci culpa maxime alias provident beatae eligendi itaque sed explicabo</p>
                 </div>
                 <div class="usp-block">
-                    <img src="<?php echo "./public/elements/bolt.svg"; ?>" alt="USP Icon" class="icon">
+                    <img src="./public/elements/bolt.svg" alt="USP Icon" class="icon">
                     <h4>USP Heading</h4>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci culpa maxime alias provident beatae eligendi itaque sed explicabo</p>
                 </div>
                 <div class="usp-block">
-                    <img src="<?php echo "./public/elements/bolt.svg"; ?>" alt="USP Icon" class="icon">
+                    <img src="./public/elements/bolt.svg" alt="USP Icon" class="icon">
                     <h4>USP Heading</h4>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci culpa maxime alias provident beatae eligendi itaque sed explicabo</p>
                 </div>
                 <div class="usp-block">
-                    <img src="<?php echo "./public/elements/bolt.svg"; ?>" alt="USP Icon" class="icon">
+                    <img src="./public/elements/bolt.svg" alt="USP Icon" class="icon">
                     <h4>USP Heading</h4>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci culpa maxime alias provident beatae eligendi itaque sed explicabo</p>
                 </div>
@@ -169,43 +164,45 @@
                 <h2>Our Team</h2>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
             </header>
-
             <div class="grid">
                 <div class="block">
-                    <img src="./public/images/team-image.jpg" alt="Person Name - Occupation" class="img-fluid">
+                    <div class="img-wrap">
+                        <img src="./public/images/team-image.jpg" alt="Person Name - Occupation" class="img-fluid">
+                        <div class="socials">
+                            <a href="#"><img src="./public/elements/instagram.png" alt="" srcset=""></a>
+                            <a href="#"><img src="./public/elements/facebook.png" alt="" srcset=""></a>
+                            <a href="#"><img src="./public/elements/twitter.png" alt="" srcset=""></a>
+                            <a href="#"><img src="./public/elements/linkedin.png" alt="" srcset=""></a>
+                        </div>
+                    </div>
                     <h4>Person Name</h4>
                     <p>Occupation</p>
-
-                    <div class="socials">
-                        <a href="#">Insta</a>
-                        <a href="#">LinkedIn</a>
-                        <a href="#">Twitter</a>
-                        <a href="#">facebook</a>
-                    </div>
                 </div>
                 <div class="block">
-                    <img src="./public/images/team-image.jpg" alt="Person Name - Occupation" class="img-fluid">
+                    <div class="img-wrap">
+                        <img src="./public/images/team-image.jpg" alt="Person Name - Occupation" class="img-fluid">
+                        <div class="socials">
+                            <a href="#"><img src="./public/elements/instagram.png" alt="" srcset=""></a>
+                            <a href="#"><img src="./public/elements/facebook.png" alt="" srcset=""></a>
+                            <a href="#"><img src="./public/elements/twitter.png" alt="" srcset=""></a>
+                            <a href="#"><img src="./public/elements/linkedin.png" alt="" srcset=""></a>
+                        </div>
+                    </div>
                     <h4>Person Name</h4>
                     <p>Occupation</p>
-
-                    <div class="socials">
-                        <a href="#">Insta</a>
-                        <a href="#">LinkedIn</a>
-                        <a href="#">Twitter</a>
-                        <a href="#">facebook</a>
-                    </div>
                 </div>
                 <div class="block">
-                    <img src="./public/images/team-image.jpg" alt="Person Name - Occupation" class="img-fluid">
+                    <div class="img-wrap">
+                        <img src="./public/images/team-image.jpg" alt="Person Name - Occupation" class="img-fluid">
+                        <div class="socials">
+                            <a href="#"><img src="./public/elements/instagram.png" alt="" srcset=""></a>
+                            <a href="#"><img src="./public/elements/facebook.png" alt="" srcset=""></a>
+                            <a href="#"><img src="./public/elements/twitter.png" alt="" srcset=""></a>
+                            <a href="#"><img src="./public/elements/linkedin.png" alt="" srcset=""></a>
+                        </div>
+                    </div>
                     <h4>Person Name</h4>
                     <p>Occupation</p>
-
-                    <div class="socials">
-                        <a href="#">Insta</a>
-                        <a href="#">LinkedIn</a>
-                        <a href="#">Twitter</a>
-                        <a href="#">facebook</a>
-                    </div>
                 </div>
             </div>
         </div>
@@ -273,12 +270,12 @@
             <div class="contact-details flex-wrap  f-around">
                 <div class="detail">
                     <h4>Address</h4>
-                    <p>Some address street,<br> some area</p>
+                    <p>123 Random Street,<br>Random Area</p>
                 </div>
                 <div class="detail">
                     <h4>E-mail</h4>
-                    <a href="someemail@gmail.com">someemail@gmail.com</a>
-                    <a href="someemail@gmail.com">someemail@gmail.com</a>
+                    <a href="info@mail.com">info@mail.com</a>
+                    <a href="support@mail.com">support@mail.com</a>
                 </div>
                 <div class="detail">
                     <h4>Phone</h4>
@@ -287,13 +284,13 @@
                 </div>
             </div>
 
-            <form action="" method="POST" class="contact-form">
+            <form action="" method="POST" class="contact-form" autocomplete="off">
                 <div class="form-group">
-                    <input type="text" name="name" id="" placeholder="Name">
-                    <input type="email" name="email" id="" placeholder="Email">
+                    <input type="text" name="name" id="" placeholder="Name" required>
+                    <input type="email" name="email" id="" placeholder="Email" required>
                 </div>
-                <input type="text" name="subject" id="" placeholder="Subject">
-                <textarea name="message" id="" cols="30" rows="5" placeholder="Message"></textarea>
+                <input type="text" name="subject" id="" placeholder="Subject" required>
+                <textarea name="message" id="" cols="30" rows="5" placeholder="Message" required></textarea>
                 <button type="submit">Send Message</button>
             </form>
         </div>
